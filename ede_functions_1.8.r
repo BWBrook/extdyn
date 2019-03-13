@@ -1,5 +1,5 @@
 ## Functions for data processing and EDE estimation, BBJ18 method ###############
-
+ 
 ### Combine repeated sightings in a year and return dataframe ###################
 dmy.cprob <- function(dd,plot=T) {
   dd <- dd[order(dd$year),] # ensure data is ordered by year
