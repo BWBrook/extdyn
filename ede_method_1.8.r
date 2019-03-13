@@ -1,7 +1,7 @@
 ## Inferring extinction with mixed-reliability data using resampling - BW Brook, May 2018 #############################
 rm(list=ls()); options(scipen=999,warn=-1); require(parallel) # required for parallel computing
 source('bbj18_functions_1.8.r'); source('bbj18_examples_1.8.r') # put these in the working directory
-
+ 
 ### Select sighting record data, reliability vector, observation year and upper confidence bound ######################
 pv <- set.rel("B") # physical, expert, controversial: B=base(default), E=extreme, L=low, M=mid, U=upper, P=physical
 sp <- "OA" # Specifiy species sighting record, as given in _examples file via two-letter code (defaults to dodo)
