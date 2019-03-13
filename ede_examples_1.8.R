@@ -4,7 +4,7 @@
 set.rel <- function(rel="B") {
   return(switch(rel,"E"=c(0.99,0.5,0.01),"L"=c(0.8,0.6,0.1),"M"=c(0.85,0.7,0.25),
                 "U"=c(0.9,0.8,0.4),"P"=c(1,0,0),c(0.95,0.5,0.1)))
-}
+} 
 #################################################################################
 
 ### Load example data file based on physical, expert and controversial SR #######
