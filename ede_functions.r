@@ -2,7 +2,7 @@
  
 ### Combine repeated sightings in a year and return dataframe ###################
 dmy.cprob <- function(dd,plot=T) {
-  dd <- dd[order(dd$year),] # ensure data is ordered by year
+  dd <- dd[order(dd$year),] # ensure data is ordered by year 
   for(i in unique(dd$year)) {
     row.sel <- which(dd$year==i)
     if(length(row.sel) > 1) {
