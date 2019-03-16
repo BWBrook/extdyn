@@ -1,8 +1,8 @@
-## Generation of simulated datasets based on JR2014 (function dataset.gen) ##
+## Generation of simulated datasets based on JR2014 (function dataset.gen) v1.9 ##
 ## iter = numer of simulated datasets generated, rel = type of reliability vector, based on set.rel function
 ## sight.type = type of sighting record (1 - constant detectability, 2 - declining detectability)
 ## rel.thresh = minimum sighting reliability accepted for standard extinction approaches
-source("BBJ_sensitivity_functions_v2.2.r")
+source("ede_sensitivity_functions.r")
 dat <- dataset.gen(iter=100, rel="A", sight.type=1, rel.thresh=0.8)
 
 sight_records <- dat[[1]]; sight_reliab <- dat[[2]]; ext_year <- dat[[3]]
