@@ -1,4 +1,4 @@
-## Functions for data processing and EDE estimation, BBJ18 method ###############
+## Functions for data processing and EDE estimation, BBJ19 ede method ###########
  
 ### Combine repeated sightings in a year and return dataframe ###################
 dmy.cprob <- function(dd,plot=T) {
