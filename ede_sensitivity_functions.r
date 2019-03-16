@@ -1,6 +1,6 @@
 lapply(c("parallel","sExtinct", "spatExtinct"),require,character.only=T)
 
-### Selection of reliability vectors  - RANGES OF VALUES #############################################################################################
+### Selection of reliability vectors  - RANGES OF VALUES ######################################################################
 # A - whole reliability range (0,1), L - lower range (0,0.6), M - middle range (0.2,0.8), U - upper range (0.4,1); A is default.
 set.rel <- function(rel="A") {
   return(switch(rel, "A"=c(0,1), "L"=c(0,0.6), "M"=c(0.2,0.8), "U"=c(0.4,1), c(0,1)))
