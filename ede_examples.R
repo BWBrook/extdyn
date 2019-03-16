@@ -35,7 +35,7 @@ load.ede.data <- function(eg="IW",rel=c(0.95,0.5,0.1)) {
     eg.dat$year.cs <- c(1946,1948:1952,1955,1958,1959,1962,1966:1969,1971:1974,1976,1981,1982,1985:1988,1999,2004:2006)
     eg.dat$cs <- rep(rel[3],length(eg.dat$year.cs)) # controversial
   }
-  else if(eg=="NU") { # Nukupu'u o'ahu (bird, Hawaiian honeycreeper, over a century since last physical record)
+  else if(eg=="NU") { # Nukupu'u o'ahu (bird, Hawaiian honeycreeper over a century since last physical record) 
     eg.dat$year.pe <- c(1837,1838,1888,1891:1897,1899)
     eg.dat$pe <- rep(rel[1],length(eg.dat$year.pe)) # physical
     eg.dat$year.ie <- c(1879)
