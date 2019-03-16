@@ -1,4 +1,4 @@
-## Generation of simulated datasets based on JR2014 (function dataset.gen) v1.9 ##
+## Generation of simulated datasets based on JR2014 (function dataset.gen) v1.9 ## 
 ## iter = numer of simulated datasets generated, rel = type of reliability vector, based on set.rel function
 ## sight.type = type of sighting record (1 - constant detectability, 2 - declining detectability)
 ## rel.thresh = minimum sighting reliability accepted for standard extinction approaches
