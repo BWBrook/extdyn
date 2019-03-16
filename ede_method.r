@@ -1,4 +1,4 @@
-## Inferring extinction with mixed-reliability data using resampling - BW Brook, Mar 2019 #############################
+## Inferring extinction with mixed-reliability data using resampling - BW Brook, March019 #############################
 ## v1.9
 rm(list=ls()); options(scipen=999,warn=-1); require(parallel) # required for parallel computing
 source('ede_functions.r'); source('ede_examples.r') # put these in the working directory
